@@ -10,3 +10,8 @@ print(a)
 A = [1]
 A.append([2, 3, 4, 5])
 print(A)
+
+
+Z = [1, 2]
+X = [3, 4]
+print(Z + X)

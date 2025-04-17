@@ -1,15 +1,7 @@
-words = ['hello', '\nworld']
-
-with open('/Users/twcch/Downloads/a.txt', 'w') as f:
-    for word in words:
-        f.write(word)
+import numpy as np
 
 
-
-
-
-
-
-
-
-
+X=np.array([[1,0],[0,1]]) 
+Y=np.array([[2,1],[1,2]]) 
+Z=np.dot(X,Y)
+print(Z)
